@@ -47,12 +47,12 @@ namespace PDF_PageSizes
 
             for (int i = 1; i <= reader.NumberOfPages; i++)
             {
-                Rectangle psize_a = reader.GetPageSize(i);
-                float width_a = psize_a.Width;
-                float height_a = psize_a.Height;
+                Rectangle psize = reader.GetPageSize(i);
+                float width = psize.Width;
+                float height = psize.Height;
                 string strPageRotation = null;
 
-                if (height_a >= width_a)
+                if (height >= width)
                 {
                     strPageRotation = "Vertical";
                 }
@@ -61,7 +61,7 @@ namespace PDF_PageSizes
                     strPageRotation = "Horizontal";
                 }
 
-                Console.WriteLine("Tamaño y rotación de la página {0} de {1}, {2} × {3}, {4}", i, reader.NumberOfPages, width_a, height_a, strPageRotation);
+                Console.WriteLine("Tamaño y rotación de la página {0} de {1}, {2} × {3}, {4}", i, reader.NumberOfPages, width, height, strPageRotation);
             }
 
             Console.WriteLine("Total de páginas PDF que contiene el documento, {0}", n);
