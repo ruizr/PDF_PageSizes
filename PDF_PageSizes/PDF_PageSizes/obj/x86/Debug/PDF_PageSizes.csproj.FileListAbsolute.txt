@@ -1,0 +1,6 @@
+c:\users\administrator\documents\visual studio 2010\Projects\PDF_PageSizes\PDF_PageSizes\bin\Debug\PDF_PageSizes.exe
+c:\users\administrator\documents\visual studio 2010\Projects\PDF_PageSizes\PDF_PageSizes\bin\Debug\PDF_PageSizes.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\PDF_PageSizes\PDF_PageSizes\bin\Debug\itextsharp.dll
+c:\users\administrator\documents\visual studio 2010\Projects\PDF_PageSizes\PDF_PageSizes\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2010\Projects\PDF_PageSizes\PDF_PageSizes\obj\x86\Debug\PDF_PageSizes.exe
+c:\users\administrator\documents\visual studio 2010\Projects\PDF_PageSizes\PDF_PageSizes\obj\x86\Debug\PDF_PageSizes.pdb
